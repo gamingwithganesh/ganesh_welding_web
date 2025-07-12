@@ -1,9 +1,4 @@
-/*
-* Template Name: UntreeStore
-* Template Author: Untree.co
-* Author URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 body {
   overflow-x: hidden;
@@ -13,19 +8,19 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 28px;
-  color: #6a6a6a;
+  color: #fcfbfb;
   font-size: 14px;
-  background-color: #eff2f1; }
+  background-color: #0b120f; }
 
 a {
   text-decoration: none;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #2f2f2f;
+  color: #f8efef;
   text-decoration: underline; }
   a:hover {
-    color: #2f2f2f;
+    color: #a1da11;
     text-decoration: none; }
   a.more {
     font-weight: 600; }
@@ -111,14 +106,14 @@ a {
       .hero .intro-excerpt {
         max-width: 450px; } }
   .hero h1 {
-    font-weight: 700;
+    font-weight: 500;
     color: #ffffff;
     margin-bottom: 30px; }
     @media (min-width: 1400px) {
       .hero h1 {
         font-size: 54px; } }
   .hero p {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(245, 244, 244);
     margin-botom: 30px; }
   .hero .hero-img-wrap {
     position: relative; }
@@ -163,7 +158,7 @@ a {
   padding: 12px 30px;
   border-radius: 30px;
   color: #ffffff;
-  background: #2f2f2f;
+  background: #e5e504;
   border-color: #2f2f2f; }
   .btn:hover {
     color: #ffffff;
@@ -195,7 +190,7 @@ a {
       color: #ffffff; }
 
 .section-title {
-  color: #2f2f2f; }
+  color: #f3efef; }
 
 .product-section {
   padding: 7rem 0; }
@@ -294,22 +289,22 @@ a {
     display: inline-block;
     position: relative;
     margin-bottom: 20px; }
-    .feature .icon:before {
+    /* .feature .icon:before {
       content: "";
-      width: 33px;
-      height: 33px;
+      width: 43px;
+      height: 43px;
       position: absolute;
-      background: rgba(59, 93, 80, 0.2);
+      background: rgba(254, 255, 252, 0.266);
       border-radius: 50%;
       right: -8px;
-      bottom: 0; }
+      bottom: 0; } */
   .feature h3 {
     font-size: 14px;
-    color: #2f2f2f; }
+    color: #faf4f4; }
   .feature p {
     font-size: 14px;
     line-height: 22px;
-    color: #6a6a6a; }
+    color: #f3eded; }
 
 .we-help-section {
   padding: 7rem 0; }
@@ -384,10 +379,10 @@ a {
   .popular-product .product-item-sm h3 {
     font-size: 14px;
     font-weight: 700;
-    color: #2f2f2f; }
+    color: #f5f2f2; }
   .popular-product .product-item-sm a {
     text-decoration: none;
-    color: #2f2f2f;
+    color: #eeeaea;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease; }
@@ -438,7 +433,7 @@ a {
   .testimonial-slider-wrap .item .testimonial-block .author-info h3 {
     font-size: 14px;
     font-weight: 700;
-    color: #2f2f2f;
+    color: #eee9e9;
     margin-bottom: 0; }
   .testimonial-slider-wrap #testimonial-nav {
     position: absolute;
@@ -541,7 +536,7 @@ a {
     position: relative; }
   .footer-section a {
     text-decoration: none;
-    color: #2f2f2f;
+    color: #000000;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease; }
@@ -599,7 +594,7 @@ a {
     font-size: 32px;
     font-weight: 500;
     text-decoration: none;
-    color: #3b5d50; }
+    color: #030605; }
   .footer-section .custom-social li {
     margin: 2px;
     display: inline-block; }
@@ -610,15 +605,16 @@ a {
       line-height: 40px;
       display: inline-block;
       background: #dce5e4;
-      color: #3b5d50;
+      color: #081610;
       border-radius: 50%; }
       .footer-section .custom-social li a:hover {
         background: #3b5d50;
         color: #ffffff; }
   .footer-section .border-top {
-    border-color: #dce5e4; }
+    border-color: #0e1615; }
     .footer-section .border-top.copyright {
-      font-size: 14px !important; }
+      color: #140f0f;
+    }
 
 .untree_co-section {
   padding: 7rem 0; }
@@ -671,18 +667,18 @@ textarea {
     text-align: center;
     border-width: 0px !important;
     vertical-align: middle;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(249, 244, 244, 0.8);
     font-size: 18px; }
   .site-blocks-table td {
     padding: 20px;
     text-align: center;
     vertical-align: middle;
-    color: rgba(0, 0, 0, 0.8); }
+    color: rgba(233, 228, 228, 0.8); }
   .site-blocks-table tbody tr:first-child td {
     border-top: 1px solid #3b5d50 !important; }
   .site-blocks-table .btn {
     background: none !important;
-    color: #000000;
+    color: #edebeb;
     border: none;
     height: auto !important; }
 
@@ -691,7 +687,7 @@ textarea {
   border-bottom-width: 1px !important; }
 
 .site-block-order-table td, .site-block-order-table th {
-  color: #000000; }
+  color: #ece2e2; }
 
 .couponcode-wrap input {
   border-radius: 10px !important; }
